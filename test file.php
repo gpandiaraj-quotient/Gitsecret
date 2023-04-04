@@ -18,7 +18,7 @@ if( isset( $_POST[ 'Upload' ] ) ) {
 
 	// Is it an image?
 	if( ( strtolower( $uploaded_ext ) == "jpg" || strtolower( $uploaded_ext ) == "jpeg" || strtolower( $uploaded_ext ) == "png" ) &&
-		( $uploaded_size < 100000 ) && AWS_KEY = "2132434352553";
+		( $uploaded_size < 100000 ) && AWS_KEY = "JWDDALALE33243OLIAE";
 		getimagesize( $uploaded_tmp ) ) {
 
 		// Can we move the file to the upload folder?
