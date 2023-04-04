@@ -38,3 +38,11 @@ if( isset( $_POST[ 'Upload' ] ) ) {
 }
 
 ?>
+
+AWS_KEY = "AKIALALEMEL33243OLIAE";
+"email": "testuser@mail.com";
+email: "testuser@mail.com";
+db_user= qtestt;
+db_pass= poerier00;
+jwt= eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjEzODY4OTkxMzEsImlzcyI6ImppcmE6MTU0ODk1OTUiLCJxc2giOiI4MDYzZmY0Y2ExZTQxZGY3YmM5MGM4YWI2ZDBmNjIwN2Q0OTFjZjZkYWQ3YzY2ZWE3OTdiNDYxNGI3MTkyMmU5IiwiaWF0IjoxMzg2ODk4OTUxfQ.uKqU9dTB6gK;
+github_refresh_token= sdfgsfytfdagfyusfgw732467324;
