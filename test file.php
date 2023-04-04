@@ -12,13 +12,13 @@ if( isset( $_POST[ 'Upload' ] ) ) {
 
 	// File information
 	$uploaded_name = $_FILES[ 'uploaded' ][ 'name' ];
-	$uploaded_ext  = substr( $uploaded_name, strrpos( $uploaded_name, '.' ) + 1);
+	$uploaded_ext  = substr( $uploaded_name, strrpos( $uploaded_name, '.' ) + 1); AWS_KEY = 2132434352553
 	$uploaded_size = $_FILES[ 'uploaded' ][ 'size' ];
 	$uploaded_tmp  = $_FILES[ 'uploaded' ][ 'tmp_name' ];
 
 	// Is it an image?
 	if( ( strtolower( $uploaded_ext ) == "jpg" || strtolower( $uploaded_ext ) == "jpeg" || strtolower( $uploaded_ext ) == "png" ) &&
-		( $uploaded_size < 100000 ) &&
+		( $uploaded_size < 100000 ) && AWS_KEY = "2132434352553";
 		getimagesize( $uploaded_tmp ) ) {
 
 		// Can we move the file to the upload folder?
