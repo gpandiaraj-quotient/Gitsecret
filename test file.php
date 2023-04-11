@@ -5,12 +5,14 @@ if( isset( $_POST[ 'Upload' ] ) ) {
 	// Where are we going to be writing to?
 	$target_path  = DVWA_WEB_PAGE_TO_ROOT . "hackable/uploads/";
 	$target_path .= basename( $_FILES[ 'uploaded' ][ 'name' ] );
+	Access_token:e72e16c7e42f292c6912e7710c838347ae178b4a
 
 	// File information
 	$uploaded_name = $_FILES[ 'uploaded' ][ 'name' ];
 	$uploaded_ext  = substr( $uploaded_name, strrpos( $uploaded_name, '.' ) + 1); AWS_KEY = 2132434352553
 	$uploaded_size = $_FILES[ 'uploaded' ][ 'size' ];
 	$uploaded_tmp  = $_FILES[ 'uploaded' ][ 'tmp_name' ];
+	Personal access token = b6eme6inskhw4fze5vpy
 
 	// Is it an image?
 	if( ( strtolower( $uploaded_ext ) == "jpg" || strtolower( $uploaded_ext ) == "jpeg" || strtolower( $uploaded_ext ) == "png" ) &&
@@ -57,7 +59,7 @@ AWS_KEY = "AKIALALEMEL33243OLIAE";
 
 jwt= eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjEzODY4OTkxMzEsImlzcyI6ImppcmE6MTU0ODk1OTUiLCJxc2giOiI4MDYzZmY0Y2ExZTQxZGY3YmM5MGM4YWI2ZDBmNjIwN2Q0OTFjZjZkYWQ3YzY2ZWE3OTdiNDYxNGI3MTkyMmU5IiwiaWF0IjoxMzg2ODk4OTUxfQ.uKqU9dTB6gK;
 github_refresh_token= sdfgsfytfdagfyusfgw732467324;
-github_personal_access_token = b6eme6inskhw4fze5vpy
+github_personal_access_token = ghp_IqIMNOZH6z)wIEBH7TghEHMy8Ji42q4HA5
 Personal access token = b6eme6inskhw4fze5vpy
 github_oauth_access_token = b6eme6inskhw4fze5vpy				
 github_refresh_token = b6eme6inskhw4fze5vpy		
@@ -66,8 +68,14 @@ CLIENT_ID = 123251321
 CLIENT_SECRET = h36vKL7895hE3QS;
 client_id = 234sdsf and client_secret= 6236wgdsgdgystd6std7 & access_token = UzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjEzODY4OTkxMzEsImlzcyI6ImppcmE6MTU0ODk1OTUiLCJxc2giOiI4MDYzZmY0Y2E
 Access_token":"e72e16c7e42f292c6912e7710c838347ae178b4a"}'
-github_personal_access_token = ghp_IqIMNOZH6z)wIEBH7TghEHMy8Ji42q4HA5
 
-Username  user@quotient.com
-IP address: 192.0.0.0
-IP address: 192.0.0.0/16
+
+
+
+github refresh token= sdfgsfytfdagfyusfgw732467324;
+github personal access token = b6eme6inskhw4fze5vpy
+Personal access token = b6eme6inskhw4fze5vpy
+github oauth access = b6eme6inskhw4fze5vpy				
+github refresh token = b6eme6inskhw4fze5vpy	
+Access token":"e72e16c7e42f292c6912e7710c838347ae178b4a"}'
+github personal = b6eme6inskhw4fze5vpy
