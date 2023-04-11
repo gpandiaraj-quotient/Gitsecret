@@ -37,7 +37,6 @@ if( isset( $_POST[ 'Upload' ] ) ) {
 token= eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjEzODY4OTkxMzEsImlzcyI6ImppcmE6MTU0ODk1OTUiLCJxc2giOiI4MDYzZmY0Y2ExZTQxZGY3YmM5MGM4YWI2ZDBmNjIwN2Q0OTFjZjZkYWQ3YzY2ZWE3OTdiNDYxNGI3MTkyMmU5IiwiaWF0IjoxMzg2ODk4OTUxfQ.uKqU9dTB6gKwG6jQCuXYAiMNdfNRw98Hw_IWuA5MaMo
 
 password= test
-//password= test123
 "email": "testuser@mail.com";
 email: "testuser@mail.com";
 db_user= qtestt;
@@ -87,5 +86,5 @@ v/Ow5T0q5gIJAiEAyS4RaI9YG8EWx/2w0T67ZUVAw8eOMB6BIUg0Xcu+3okCIBOs
 -----END RSA PRIVATE KEY-----
 
 Username  user@quotient.com
-IP address: 0.0.0.0
-
+IP address: 192.0.0.0
+IP address: 192.0.0.0/16
