@@ -1,0 +1,79 @@
+# This file has been auto-generated. Do not edit manually.
+# If you would like to contribute new rules, please use 
+# cmd/generate/config/main.go and follow the contributing guidelines
+# at https://github.com/zricethezav/gitleaks/blob/master/CONTRIBUTING.md
+
+# This is the default gitleaks configuration file.
+# Rules and allowlists are defined within this file.
+# Rules instruct gitleaks on what should be considered a secret.
+# Allowlists instruct gitleaks on what is allowed, i.e. not a secret.
+
+title = "gitleaks config"
+
+[allowlist]
+description = "global allow lists"
+paths = [
+    '''gitleaks.toml''',
+    '''(.*?)(jpg|gif|doc|docx|zip|xls|pdf|bin|svg|socket)$''',
+    '''(go.mod|go.sum)$''',
+    '''gradle.lockfile''',
+    '''node_modules''',
+    '''package-lock.json''',
+    '''pnpm-lock.yaml''',
+    '''Database.refactorlog''',
+    '''vendor''',
+]
+
+[[rules]]
+description = "Finicity API token"
+id = "finicity-api-token"
+regex = '''(?i)(?:finicity)(?:[0-9a-z\-_\t .]{0,20})(?:[\s|']|[\s|"]){0,3}(?:=|>|:=|\|\|:|<=|=>|:)(?:'|\"|\s|=|\x60){0,5}([a-f0-9]{32})(?:['|\"|\n|\r|\s|\x60|;]|$)'''
+secretGroup = 1
+keywords = [
+    "finicity",
+]
+
+[[rules]]
+description = "Finicity Client Secret"
+id = "finicity-client-secret"
+regex = '''(?i)(?:finicity)(?:[0-9a-z\-_\t .]{0,20})(?:[\s|']|[\s|"]){0,3}(?:=|>|:=|\|\|:|<=|=>|:)(?:'|\"|\s|=|\x60){0,5}([a-z0-9]{20})(?:['|\"|\n|\r|\s|\x60|;]|$)'''
+secretGroup = 1
+keywords = [
+    "finicity",
+]
+
+[[rules]]
+description = "PlanetScale password"
+id = "planetscale-password"
+regex = '''(?i)\b(pscale_pw_(?i)[a-z0-9=\-_\.]{32,64})(?:['|\"|\n|\r|\s|\x60|;]|$)'''
+secretGroup = 1
+keywords = [
+    "pscale_pw_",
+]
+
+[[rules]]
+description = "Adobe Client ID (OAuth Web)"
+id = "adobe-client-id"
+regex = '''(?i)(?:adobe)(?:[0-9a-z\-_\t .]{0,20})(?:[\s|']|[\s|"]){0,3}(?:=|>|:=|\|\|:|<=|=>|:)(?:'|\"|\s|=|\x60){0,5}([a-f0-9]{32})(?:['|\"|\n|\r|\s|\x60|;]|$)'''
+secretGroup = 1
+keywords = [
+    "adobe",
+]
+
+[[rules]]
+description = "PlanetScale password"
+id = "planetscale-password"
+regex = '''(?i)\b(pscale_pw_(?i)[a-z0-9=\-_\.]{32,64})(?:['|\"|\n|\r|\s|\x60|;]|$)'''
+secretGroup = 1
+keywords = [
+    "pscale_pw_",
+]
+
+[[rules]]
+description = "Genric password"
+id = "generic-password"
+regex = '''(?i)\b(pscale_pw_(?i)[a-z0-9=\-_\.]{32,64})(?:['|\"|\n|\r|\s|\x60|;]|$)'''
+secretGroup = 1
+keywords = [
+    "password", "maria", "db", "mysql",
+]
