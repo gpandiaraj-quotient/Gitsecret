@@ -12,9 +12,6 @@ amazon_mws_token
 [MWSAuthToken] => amzn.mws.48b3d760-b504-e217-3b5d-82fe23080eb5
 apikey: amzn.mws.48b3d760-b504-e217-3b5d-82fe23080eb5
 
-//new code
-A_Key= AKIAVBUISR7RKQGY47ME
-A_Secret= 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
 
 
 ARTIFACTORY_TOKEN=AKCp5budTFpbypBqQbGJPz3pGCi28pPivfWczqjfYb9drAmd9LbRZbj6UpKFxJXA8ksWGc9fM
